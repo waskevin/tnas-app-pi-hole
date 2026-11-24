@@ -1,0 +1,6 @@
+services:
+  pi-hole:
+    image: pihole/pihole:nightly
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
